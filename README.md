@@ -38,8 +38,9 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
-![316380387-d0433287-bca1-4a42-941b-7ebe73f982fa](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/d303e2db-493a-4378-b578-bc203e43a82e)
-![316380435-89454d27-9645-4632-a76b-83fd89b93be1](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/860e63f9-aad0-4ac6-a50e-1021410fc7ff)
+![318459772-b2f3f217-76b3-4f12-a7ba-54b5ff8b4838](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/17593dd2-e365-4d49-ad8d-0f05be406e69)
+![318459838-b0b7195c-e9a1-4ebf-a594-72a65835e8b2](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/9215e7f0-8c05-4c17-8823-417dd56a4fd2)
+
 
 
 **Procedure**
@@ -50,18 +51,8 @@ Write the detailed procedure here
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 ```
-module exp04(a,b,c,sum,carry,BO,DIFF);
-input a,b,c;
-output sum,carry,BO,DIFF;
-//FULL ADDER
-assign sum = a^b^c;
-assign carry = (a&b) | (b&c) | (a&c);
-wire a0;
-not (a0,a);
-//FUKK SUBTRACTOR
-assign DIFF = a^b^c;
-assign BO = (a0&b) | (b&c) | (a0&c);
-endmodule
+![318460056-379aef4f-5d02-4e49-acd2-9bdbe7391808](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/4fd9dfd2-5979-4776-ae56-b45bdba9451c)
+![318460115-42baaa46-0fb3-43f8-9c61-7025ae54e0e0](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/d3087462-d6d7-45b5-8385-7f094b19391c)
 
 ```
 
@@ -69,10 +60,14 @@ Developed by: Pradeep V RegisterNumber:212223240119
 */
 
 **RTL Schematic**
-![316380018-6e9a0272-f5ff-4c66-a05c-fe4ca977de81](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/0648244b-82bf-4654-9868-9b470d8be731)
+![318460221-c56fbbea-084b-4a25-a1af-893635e8e8cd](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/7019a725-11b0-4ac1-9fa9-feda7c1b7d49)
+![318460314-6bc0e1a2-bc9c-46df-ab7f-0ffd68cd061d](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/7e521308-93ca-4527-8985-f760fa534ef6)
+
 
 **Output Timing Waveform**
-![316380043-ac6a4ddd-bf53-4d24-a049-082f31171294](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/de17215a-0167-4f2e-9088-d563c77dbc84)
+![318460383-b6aa2dc0-3c90-48c6-a54e-43bf869a17ce](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/a66c3711-bfc9-47d9-829d-63b1711bb3b7)
+![318460421-44f71d89-0fc5-4dfc-915a-0363c0c87dda](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/2d8aacbc-6dcc-4cd9-966c-fda9e6b2703a)
+
 
 **Result:**
 

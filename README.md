@@ -1,3 +1,6 @@
+# NAME:PRADEEP V
+# REG NO:212223240119
+
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
@@ -55,9 +58,11 @@ Write the detailed procedure here
 ![318460115-42baaa46-0fb3-43f8-9c61-7025ae54e0e0](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/d3087462-d6d7-45b5-8385-7f094b19391c)
 
 ```
-
-Developed by: Pradeep V RegisterNumber:212223240119
+```
+/* Developed by: Pradeep V 
+RegisterNumber:212223240119
 */
+```
 
 **RTL Schematic**
 ![318460221-c56fbbea-084b-4a25-a1af-893635e8e8cd](https://github.com/velupradeep/FULL_ADDER_SUBTRACTOR/assets/150329341/7019a725-11b0-4ac1-9fa9-feda7c1b7d49)
